@@ -63,4 +63,5 @@ Pod::Spec.new do |s|
 #   s.public_header_files = 'JWCPodSubModule/Classes/**/*.h'
 #私有pod的依赖 有几个就分开写几行 在使用此私有库时 即使在使用的工程中的Podfile 中没有写 'AFNetworking', '~> 2.3' 也会自动pod下来 'AFNetworking', '~> 2.3' 的代码，如果有子模块时 无论使用哪个子模块 都会下载这个依赖的代码
     s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'PLUFoundation', '~> 0.0.5'
 end
